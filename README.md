@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Screenshot
 
-![solution](/solution.png)
+![solution](./public/solution.png)
 
 
 ### Links
