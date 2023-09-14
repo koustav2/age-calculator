@@ -32,6 +32,16 @@ export default function Home() {
     else if (parseInt(day) >= 31) {
       setError("Please enter a valid day");
     }
+    else if (parseInt(day) >= 31 && parseInt(month) >= 12) {
+      setError("Please enter a valid day and month");
+    }
+    else if (parseInt(day) >= 31 && parseInt(year) >= year1) {
+      setError("Please enter a valid day and year");
+    }
+    else if (parseInt(month) >= 12 && parseInt(year) >= year1) {
+      setError("Please enter a valid month and year");
+    }
+
     else {
 
       if (days < 0) {
